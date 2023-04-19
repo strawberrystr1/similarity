@@ -35,7 +35,7 @@
     "lodash": "^4.17.21",
     "lucide-react": "^0.162.0",
     "nanoid": "^4.0.2",
-    "next": "13.3.0",
+    "next": "^13.3.1-canary.4",
     "next-auth": "^4.22.0",
     "next-themes": "^0.2.1",
     "openai": "^3.2.1",
@@ -51,5 +51,9 @@
     "tailwindcss": "3.3.1",
     "typescript": "5.0.4",
     "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "tailwindcss-animate": "^1.0.5"
   }
 }

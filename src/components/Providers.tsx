@@ -8,10 +8,12 @@ interface IProvidersProps {
   children: ReactNode;
 }
 
-export const Providers: FC<IProvidersProps> = ({ children }) => {
+const Providers: FC<IProvidersProps> = ({ children }) => {
   return (
     <ThemeProvider attribute="class" defaultTheme="system">
       <SessionProvider>{children}</SessionProvider>
     </ThemeProvider>
   );
 };
+
+export default Providers;
