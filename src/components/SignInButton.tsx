@@ -30,4 +30,4 @@ const SignInButton: FC<ISignInButtonProps> = () => {
   );
 };
 
-export default SignInButton
+export default SignInButton;
