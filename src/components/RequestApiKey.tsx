@@ -37,6 +37,7 @@ const RequestApiKey = () => {
         message: "Something went wrong",
         type: "error"
       });
+    } finally {
       setIsCreating(false);
     }
   };
